@@ -1,0 +1,401 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand  div {
+    color: #ffffff;
+    font-weight: bold ;
+    font-size: 26px;
+}
+
+.navbar-brand div span {
+    color: #59F947;
+}
+
+.tron {
+    background-image: url(./assets/images/bg_png.png);
+    width: 100%;
+    background-attachment: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+}
+
+nav {
+    padding-top: 28px !important;
+}
+
+.navbar a {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.lang .show {
+    background-color: transparent ;
+    border: none ;
+}
+
+li .distance-nav {
+    margin-right: 160px;
+}
+
+.footer .link a {
+    color: #8B97A5;
+}
+
+.nav-item .btn-getstarted {
+    background-color: #ffffff;
+    color: #292E5D !important;
+    font-weight: bold;
+    border-radius: 60px;
+    font-size: 16px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-shadow: 2px 9px 8px #00103429;
+    opacity: 1;
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+.active a {
+    border-bottom: 2px solid #ffffff;
+}
+
+.hero-info {
+    padding-left: 9%;
+}
+
+.section-one {
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+
+.hero-btn .or {
+    margin: 0px 20px;
+    margin-top: 40px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hero-btn {
+    margin-top: 50px;
+}
+
+.btn-signin {
+    background-color: #FF9441;
+    margin-top: -5px !important;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 60px;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 9px 10px #29170029;
+    opacity: 1;
+}
+
+.btn-signup {
+    color: #ffffff;
+    margin-top: -5px !important;
+    font-weight: bold;
+    border-radius: 60px;
+    font-size: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 9px 10px #29170029;
+    opacity: 1;
+}
+
+.hero-img img {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.information {
+    background-color: #292E5D;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 40px;
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #59F947;
+}
+
+.language img{
+    border-radius: 50px;
+}
+
+@media (max-width: 530px) {
+    .btn-signin, .btn-signup {
+        margin-top: 10px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1176px) {
+    .btn-signin, .btn-signup {
+        margin-top: 10px !important;
+    }
+}
+
+.data-red {
+    color: #FF3B3B;
+}
+
+.data-green {
+    color: #59F947;
+}
+
+.diamond {
+    padding-top: 70px;
+}
+
+.title-fiture {
+    color: #292E5D;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mini-content {
+    margin-top: 15px;
+    color: #707B8E;
+    text-align: justify;
+    width: 45%;
+    font-size: 14px;
+}
+
+.head-fiture {
+    color: #292E5D;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-fiture {
+    color: #707B8E;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-testimonial {
+    background: linear-gradient(90deg, rgba(249,250,252,1) 0%, rgba(249,250,252,1) 35%, rgba(249,250,252,1) 100%);;
+    padding-bottom: 30px;
+}
+
+.title-fiture span {
+    font-weight: 400;
+}
+
+.mini-content-2 {
+    color: #707B8E;
+}
+
+/* carousel css */
+.carousel {
+	margin: 10px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	padding: 25px 15px;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+}
+.carousel .thumb-wrapper:hover {
+    padding: 25px 15px;
+    background: #fff;
+	border-radius: 6px;
+	text-align: center;
+    position: relative;
+    box-shadow: 0px 6px 20px #0000001F;
+}
+.thumb-content p {
+    margin-top: 10px;
+    text-align: left;
+}
+.thumb-wrapper .name-testi {
+    font-weight: 600;
+    font-size: 16px;
+    color: #292E5D;
+}
+.thumb-wrapper .job-testi {
+    font-weight: 400;
+    font-size: 14px;
+    color: #707B8E;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .carousel-control {
+	height: 40px;
+	width: 40px;
+	background: #292E5D;	
+    margin: auto 0;
+    border-radius: 50px;
+	opacity: 0.8;
+}
+.carousel .carousel-control:hover {
+	background: #292E5D;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+
+.line {
+    width: 70%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    box-shadow: 0px 5px 7px rgb(73, 73, 73);
+}
+
+.input-group {
+    box-shadow: -8px 7px 16px #00000029;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+}
+
+.input-custom {
+    border: none !important;
+    margin-top: 6px !important;
+    background: transparent;
+}
+
+.input-send a{
+    border-radius: 50px !important;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    background-color: #FF9441;
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+.input-send a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer {
+    background-image: url(./assets/images/106158242-1569943320420business-team-investment-working-with-computer-planning-and-analyzing-graph-stock-market-trading-with_t20_krkda4@2x.png);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.gradient {
+    background: transparent linear-gradient(0deg, #273341 0%, #273341 49%, #27334187 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: auto;
+}
+
+.footer .mini-content {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    color: #8B97A5;
+}
+
+.footer-title {
+    color: #ffffff;
+}
+
+.footer-content {
+    color: #ffffff;
+}
+
+.footer .footer-desc {
+    color: #8B97A5;
+}
+
+.footer-desc h6 {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.footer-desc p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email {
+    margin-top: 60px;
+    color: #59F947;
+}
